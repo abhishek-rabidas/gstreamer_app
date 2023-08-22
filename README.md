@@ -1,7 +1,6 @@
 <h3>To build and run</h3>
 <p>Run the following command: <br> <b>gcc <u>.c file</u> `pkg-config --cflags gstreamer-1.0` `pkg-config --libs gstreamer-1.0` -o <u>build name</u></b></p>
 <br>
-<br>
 <h4>To install gstreamer</h4>
 Official doc: <a href="https://gstreamer.freedesktop.org/documentation/">Gstreamer Doc</a>
 <br>
