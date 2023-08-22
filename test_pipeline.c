@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <gst/gst.h>
 
-int
-tutorial_main(int argc, char *argv[]) {
+int video_play(int argc, char *argv[]) {
     GstElement *pipeline, *source, *sink;
     GstBus *bus;
     GstMessage *msg;
@@ -82,5 +81,5 @@ tutorial_main(int argc, char *argv[]) {
 }
 
 int main(int argc, char *argv[]) {
-    return tutorial_main(argc, argv);
+    return video_play(argc, argv);
 }

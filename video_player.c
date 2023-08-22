@@ -1,6 +1,6 @@
 #include <gst/gst.h>
 
-int tutorial_main(int argc, char *argv[]) {
+int video_play(int argc, char *argv[]) {
     GstElement *pipeline;
     GstBus *bus;
     GstMessage *msg;
@@ -38,6 +38,6 @@ int tutorial_main(int argc, char *argv[]) {
 
 int
 main(int argc, char *argv[]) {
-    return tutorial_main(argc, argv);
+    return video_play(argc, argv);
 }
 
